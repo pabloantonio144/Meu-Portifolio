@@ -15,19 +15,24 @@
   </head>
   <body>
     <!--NAV-->
-    <nav>
-      <h2 class="logo">Portfolio</h2>
-      <div class="opcoes">
-        <a href="#">Home</a>
-        <a href="#">About Us</a>
-        <a href="#">Services</a>
-        <a href="#">Skills</a>
-        <a href="#">Contact Us</a>
-      </div>
-    </nav>
+    <section class="header">
+      <a class="header-title" href="/">
+        <h2>Pablo Antonio</h2>
+      </a>
+      
+      <nav class="navbar">
+        <ul>
+          <li><a href="#person">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#contacts">Contatos</a></li>
+        </ul>
+        
+      </nav>
+    </section>
 
     <!--Person-->
-    <section class="person">
+    <section id="person">
       <div class="person-content">
         <div class="person-name">
           <h1>Olá, <span></span></h1>
@@ -85,7 +90,7 @@
     <!--end Person-->
 
     <!--About-->
-    <section class="about">
+    <section id="about">
       <div class="backgroud-about">
         <div class="img-wrapper">
           <img src="./files/img.2.jpg" alt="img2-notebook" />
@@ -121,7 +126,7 @@
     <!--End About-->
 
     <!--Projects-->
-    <section class="projects">
+    <section id="projects">
       <div class="projects-title">
         <h2>Projetos 🧩</h2>
       </div>
@@ -186,11 +191,36 @@
     </section>
    <!--End Projects-->
     
-   <section class="contacts">
+   <section id="contacts">
       <div class="contact-icon-content">
          <h2>Contato 📞</h2>
       </div>
-   </section>
 
+      <div class="contact-icons-wrapper">
+        <div class="contact-icon-content">
+          <div class="contact-icon">
+            <i class="fa-solid fa-map-location-dot"></i>
+          </div>
+          <div class="contact-info">
+            <span>Localização</span>
+            <p>Rio Branco - AC, Brasil</p>
+          </div>
+        </div>
+
+        <div class="contact-icon-content">
+          <div class="contact-icon">
+            <i class="fa-solid fa-envelope-open-text"></i>
+          </div>
+          <div class="contact-info">
+            <span>E-mail</span>
+            <a href="/">
+              pablo144@gmail.com
+            </a>
+          </div>
+        </div>
+      </div>
+   </section>
+<script src="./scripts.js"></script>
+   
   </body>
 </html>
