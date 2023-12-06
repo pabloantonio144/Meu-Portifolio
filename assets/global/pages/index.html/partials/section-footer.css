@@ -1,0 +1,25 @@
+#footer {
+    height: auto;
+    width: 100%;
+  
+    padding: calc(3vw + 1rem) 0vw;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin-top: auto;
+  
+    background: #191919;
+  }
+  
+  .container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    flex-direction: column;
+  
+    color: var(--cor-branco);
+  
+  }
